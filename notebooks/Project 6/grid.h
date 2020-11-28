@@ -1,6 +1,6 @@
 // grid.h
-// <YOUR NAME>
-// <YOUR PORTAL USER NAME>
+// Maxwell Kapral
+// mkapral
 
 #ifndef GRID_H
 #define GRID_H
