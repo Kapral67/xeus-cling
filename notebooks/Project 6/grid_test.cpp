@@ -16,6 +16,14 @@ void Grid::set(int x, int y, char c){
     }
 }
 
+void Grid::print(){
+    for(int col = 0; col < COLS; col++){
+        for(int row = 0; row < ROWS; row++){
+            cout << m_grid[col][row];
+        }
+        cout << endl;
+    }
+
 void draw(Grid &grid){
     grid.set(0,0,'+');
     grid.set(59,23,'*');
