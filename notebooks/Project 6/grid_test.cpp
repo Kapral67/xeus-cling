@@ -10,7 +10,11 @@ Grid::Grid(){
     }
 }
 
-Grid::set
+void Grid::set(int x, int y, char c){
+    if(y < ROWS && x < COLS){
+        m_grid[x][y] = c;
+    }
+}
 
 void draw(Grid &grid){
     grid.set(0,0,'+');
