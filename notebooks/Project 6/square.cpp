@@ -2,12 +2,13 @@
 // CSCI 211
 // Project 6
 // mkapral
-// sqaure.cpp
+// square.cpp
 
 #include <iostream>
 #include "square.h"
+#include "shape.h"
 
-Square::Square(int x, int y, int size){
+Square::Square(int x, int y, int size) : Shape(x,y){
     m_x = x;
     m_y = y;
     m_size = size;
