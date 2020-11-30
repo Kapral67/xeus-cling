@@ -7,6 +7,8 @@
 #include <iostream>
 #include "triangle.h"
 #include "shape.h"
+#include "grid.h"
+using namespace std;
 
 Triangle::Triangle(int x, int y) : Shape(x,y){
     m_x = x;

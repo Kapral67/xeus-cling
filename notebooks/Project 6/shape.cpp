@@ -6,6 +6,8 @@
 
 #include <iostream>
 #include "shape.h"
+#include "grid.h"
+
 using namespace std;
 
 Shape::Shape(int x, int y){

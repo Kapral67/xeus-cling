@@ -8,6 +8,7 @@
 #define SQUARE_H
 
 #include "shape.h"
+#include "grid.h"
 
 class Square: public Shape {
     public:

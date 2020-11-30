@@ -8,6 +8,7 @@
 #define TRIANGLE_H
 
 #include "shape.h"
+#include "grid.h"
 
 class Triangle: public Shape{
     public:

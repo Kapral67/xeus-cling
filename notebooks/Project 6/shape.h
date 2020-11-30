@@ -7,6 +7,8 @@
 #ifndef SHAPE_H
 #define SHAPE_H
 
+#include "grid.h"
+
 class Shape {
     public:
         Shape(int x, int y);

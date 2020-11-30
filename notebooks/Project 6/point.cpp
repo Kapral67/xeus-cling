@@ -7,6 +7,7 @@
 #include <iostream>
 #include "point.h"
 #include "shape.h"
+#include "grid.h"
 
 Point::Point(int x, int y, char c) : Shape(x,y){
     m_x = x;

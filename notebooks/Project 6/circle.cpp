@@ -7,6 +7,7 @@
 #include <iostream>
 #include "circle.h"
 #include "shape.h"
+#include "grid.h"
 
 Circle::Circle(int x, int y) : Shape(x,y){
     m_x = x;

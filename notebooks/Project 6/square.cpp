@@ -7,6 +7,7 @@
 #include <iostream>
 #include "square.h"
 #include "shape.h"
+#include "grid.h"
 
 Square::Square(int x, int y, int size) : Shape(x,y){
     m_x = x;

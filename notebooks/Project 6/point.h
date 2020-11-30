@@ -7,6 +7,7 @@
 #ifndef POINT_H
 #define POINT_H
 
+#include "grid.h"
 #include "shape.h"
 
 class Point: public Shape {
