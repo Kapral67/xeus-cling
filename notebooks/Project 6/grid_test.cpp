@@ -23,6 +23,7 @@ void Grid::print(){
         }
         cout << endl;
     }
+}
 
 void draw(Grid &grid){
     grid.set(0,0,'+');
