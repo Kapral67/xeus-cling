@@ -11,8 +11,8 @@ Grid::Grid(){
 }
 
 void Grid::set(int x, int y, char c){
-    if(x < ROWS && y < COLS)
-        m_grid[x][y] = c;
+    if(y < ROWS && x < COLS)
+        m_grid[y][x] = c;
 }
 
 void Grid::print(){

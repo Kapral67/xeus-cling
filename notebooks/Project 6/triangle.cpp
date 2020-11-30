@@ -7,7 +7,6 @@
 #include <iostream>
 #include "triangle.h"
 #include "shape.h"
-#include "point.h"
 
 Triangle::Triangle(int x, int y) : Shape(x,y){
     m_x = x;
@@ -15,9 +14,12 @@ Triangle::Triangle(int x, int y) : Shape(x,y){
 }
 
 void Triangle::draw(Grid &grid){
+    //set top point
     grid.set(m_x, m_y, '+');
-    grid.set((m_x+1), (m_y-1), '+');
+    //set middle left and mid. r. respectively
+    grid.set((m_x-1), (m_y+1), '+');
     grid.set((m_x+1), (m_y+1), '+');
+    //set bottom pts.
     for(int pt = 0; pt < 5; pt++)
-        grid.set((m_x+2), ((m_y-2)+pt), '+');
+        grid.set(((m_x-2)+pt), (m_y+2), '+');
 }
