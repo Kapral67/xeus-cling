@@ -15,7 +15,7 @@ class Grid
 	    void set(int x, int y, char c);
 	    void print();
     private:
-    	char m_grid[COLS][ROWS];
+    	char m_grid[ROWS][COLS];
 };
 
 #endif
