@@ -5,7 +5,7 @@
 // square.h
 
 #ifndef SQUARE_H
-#define SQAURE_H
+#define SQUARE_H
 
 #include "shape.h"
 
@@ -16,3 +16,4 @@ class Square: public Shape {
     private:
         int m_size;
 };
+#endif

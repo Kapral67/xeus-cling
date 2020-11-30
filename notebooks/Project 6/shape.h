@@ -15,3 +15,4 @@ class Shape {
         int m_x;
         int m_y;
 };
+#endif
