@@ -7,7 +7,7 @@
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
-Class Circle : public Shape{
+class Circle : public Shape{
     public:
         Circle(int x, int y);
         void draw(Grid &grid);
